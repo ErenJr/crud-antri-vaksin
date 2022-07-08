@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 $host = "localhost";
 $user = "root";
@@ -9,16 +8,4 @@ $koneksi = mysqli_connect($host, $user, $password, $database);
 if (!$koneksi){
     die("Gagal terhubung dengan database: ".mysqli_connect_error());
 }
-=======
-<?php
-$host = "localhost";
-$user = "root";
-$password = "";
-$database = "datavaksin";
-
-$koneksi = mysqli_connect($host, $user, $password, $database);
-if (!$koneksi){
-    die("Gagal terhubung dengan database: ".mysqli_connect_error());
-}
->>>>>>> f655ee8 (first commit)
 ?>
